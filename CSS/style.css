@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f9bc60;
+}
+
+header{
+    background-color: #004643;
+    border-bottom: 40px solid #abd1c6;
+    height: 250px;
+}
+#horizontal{ padding-left: 35%; display: block;}
+
+span.spread{word-spacing: 1.5em; }
+
+main{
+    background-color: #e8e4e6;
+    width: 50vw /*Alternatively 960px*/;
+    min-height: 600px; 
+    margin: 0 auto;
+    padding: 12px;
+}
+
+h1 { color: #e8e4e6;
+    background-color: #004643;
+    text-align: center;
+    margin: 12px;
+    border: 5px solid black;
+}
+h2 {color: #e8e4e6;
+    background-color: black;
+    margin: 20px;
+    text-align: center;
+
+}
+h3 {background-color: #f9bc60;
+    text-align: center;
+    margin: 15px;
+border: solid #004643;}
+h4{
+    color: #e8e4e6;
+    background-color: #004643;
+    margin: 5px;
+    border-color: #e8e4e6;
+}
+
+hr{ 
+    width: 100%;
+    border: none;
+    height: 4px;
+    background-color: #004643;
+    margin-top: 5px;
+    }
+
+#hours{
+        text-align: left;
+        position: absolute; right: 70%; top: 60%;
+        width: 200px;
+        margin-right: 85px;
+        font-size: medium;
+}
+footer{
+    background-color: #abd1c6;
+    border-top: 40px solid #004643;
+    height: 400px;
+    
+}
+#foodtruck{
+    display: block;
+    image-orientation: left;
+    margin: 0 auto;
+}
+#egg_truck{
+    display: block;
+    margin: 0 auto;
+  
+}
+#chickw{
+    display: block;
+    image-orientation: center; 
+    margin: 0 auto;
+}
+#platter{
+    display: block;
+    image-orientation: center; 
+    margin: 0 auto;
+
+}
+#baconc{
+    display: block;
+    image-orientation: center; 
+    margin: 0 auto;
+}
+p.footer{
+    text-align: left;
+}
+nav.socialmedia{
+    align-items: cneter;
+    align-content: center;
+}
+p.copyright{
+    text-align: center;}
+#truck{
+    position: absolute; left: 80%;
+    width: 200px;
+}
+
